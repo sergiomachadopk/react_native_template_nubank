@@ -24,7 +24,6 @@ export const NavItem = styled.View`
   padding: 12px 0;
   border-bottom-width: ${StyleSheet.hairlineWidth}px;
   border-bottom-color: rgba(255,255,255, 0.8);
-
 `;
 
 export const NavText = styled.Text`
@@ -34,8 +33,7 @@ export const NavText = styled.Text`
 `;
 export const SignOutButton = styled.TouchableOpacity`
   
-  /* border-bottom-width: ${StyleSheet.hairlineWidth}px; */
-  border-bottom-width: 1px;
+  border-width: ${StyleSheet.hairlineWidth}px;
   border-color: rgba(255,255,255, 0.8);
   border-radius: 4px;
   justify-content: center;
